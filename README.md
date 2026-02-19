@@ -24,56 +24,6 @@ Install dependencies:
 pip install requests beautifulsoup4
 ```
 
----
 
-# Usage
-
-Run the script:
-
-```bash
-python script.py
-```
-
----
-
-# Output
-
-* Headlines are printed in the console
-* Headlines are saved in a file:
-
-```
-headlines.txt
-```
-
-Example output:
-
-```
-1. Example Headline One
-2. Example Headline Two
-3. Example Headline Three
-```
-
----
-
-#Code Overview
-
-| Section        | Purpose           |
-| -------------- | ----------------- |
-| requests.get() | Fetch webpage     |
-| BeautifulSoup  | Parse HTML        |
-| find_all()     | Extract headlines |
-| open()         | Save to file      |
-
----
-
-# Error Handling
-
-The script handles:
-
-* Connection failures
-* Invalid responses
-* Unexpected errors
-
----
 
 
